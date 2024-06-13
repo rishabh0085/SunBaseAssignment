@@ -100,14 +100,18 @@ Add a New Customer: src/main/resources/static/add-customer.html
 #Usage
 
 1.Login: Navigate to the login page (/login.html), enter the username and password to receive a JWT token.
+
 2.Customer Management:
 View customers on the customer list screen (/customers.html).
 Add a new customer using the add customer form (/add-customer.html).
 Edit or delete existing customers from the list.
+
 3.Sync Data: Use the sync button on the customer list screen to fetch and update customer data from a remote API.
 
 #Syncing Data
 
-Authenticate with the remote API to get a bearer token.
-Fetch Customer List from the remote API using the token.
-Update existing customers or add new customers in the local database.
+1.Authenticate with the remote API to get a bearer token.
+
+2.Fetch Customer List from the remote API using the token.
+
+3.Update existing customers or add new customers in the local database.
