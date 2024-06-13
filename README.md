@@ -79,12 +79,17 @@ Login: POST /authenticate
 
 #Customer API
 
-Create a Customer: POST /api/customers
-Update a Customer: PUT /api/customers/{id}
-Get a List of Customers: GET /api/customers (supports pagination, sorting, and searching)
-Get a Single Customer by ID: GET /api/customers/{id}
-Delete a Customer: DELETE /api/customers/{id}
-Sync Customers: GET /api/customers/sync
+1.Create a Customer: POST /api/customers
+
+2.Update a Customer: PUT /api/customers/{id}
+
+3.Get a List of Customers: GET /api/customers (supports pagination, sorting, and searching)
+
+4.Get a Single Customer by ID: GET /api/customers/{id}
+
+5.Delete a Customer: DELETE /api/customers/{id}
+
+6.Sync Customers: GET /api/customers/sync
 
 #Frontend
 
